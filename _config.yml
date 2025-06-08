@@ -26,9 +26,9 @@ plugins:
   - jekyll-seo-tag
 
 # Social media/contact
-github_username: yourusername
-linkedin_username: yourlinkedin
-twitter_username: yourtwitter
+github_username: timur-hassan
+linkedin_username: timur-hassan
+# twitter_username: timur_hassan
 
 # Google Analytics (optional)
 # google_analytics: UA-XXXXXXXXX-X

@@ -18,49 +18,51 @@
     {% seo %}
 </head>
 <body>
-    <header class="site-header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="/" class="nav-brand">{{ site.title | split: ' - ' | first }}</a>
-                <ul class="nav-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/projects/">Projects</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/contact/">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main class="main-content">
-        <div class="container">
-            {{ content }}
-        </div>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="social-links">
-                    {% if site.github_username %}
-                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.linkedin_username %}
-                    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.twitter_username %}
-                    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    {% endif %}
+    <div class="page-wrapper">
+        <header class="site-header">
+            <nav class="navbar">
+                <div class="nav-container">
+                    <a href="/" class="nav-brand">{{ site.title | split: ' - ' | first }}</a>
+                    <ul class="nav-menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects/">Projects</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
                 </div>
-                <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | split: ' - ' | first }}. All rights reserved.</p>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                {{ content }}
             </div>
-        </div>
-    </footer>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="social-links">
+                        {% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.linkedin_username %}
+                        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title | split: ' - ' | first }}. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html> 

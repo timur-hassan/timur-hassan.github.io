@@ -1,0 +1,82 @@
+# Data Science Portfolio Website - Project Context
+
+## PROJECT OVERVIEW
+This is a Jekyll-based professional data science portfolio website designed to showcase your work and attract freelance opportunities. The site is configured for GitHub Pages deployment.
+
+## CURRENT STATUS: Well-Developed Foundation ✅
+You have a solid, functional Jekyll site with:
+- Complete Jekyll configuration (`_config.yml`)
+- Professional site structure with navigation
+- Responsive HTML layout (`_layouts/default.html`)
+- Custom SCSS styling (`assets/css/style.scss`)
+- Content pages (Home, Projects)
+- Sample project template
+- GitHub Pages deployment ready
+
+## SITE STRUCTURE
+```
+ds_portfolio/
+├── _config.yml          # Jekyll configuration (title: "Timur Hassan - AI Generated Data Science Portfolio")
+├── index.md             # Home page with bio, skills, featured projects
+├── projects.md          # Projects listing page
+├── _layouts/
+│   └── default.html     # Main HTML template with navigation, footer
+├── _projects/
+│   └── sample-project.md # Template showing project structure (Customer Churn Prediction)
+├── assets/css/
+│   └── style.scss       # Custom styling
+└── Gemfile              # Jekyll dependencies
+```
+
+## KEY FEATURES IMPLEMENTED
+- **Professional Layout**: Clean navigation, header, footer with social links
+- **Project Collections**: Jekyll collections configured for project showcase
+- **SEO Ready**: Jekyll SEO plugin configured
+- **Responsive Design**: Mobile-friendly layout
+- **Social Integration**: GitHub, LinkedIn, Twitter placeholder links
+- **Modern Styling**: Inter font, Font Awesome icons
+
+## CONFIGURATION DETAILS
+- **URL**: https://timur-hassan.github.io
+- **Email**: timur.hassan@gmail.com  
+- **Tech Stack**: Jekyll + GitHub Pages
+- **Plugins**: jekyll-feed, jekyll-sitemap, jekyll-seo-tag
+
+## CONTENT STATUS
+- **Home Page**: ✅ Complete with skills, bio, contact info
+- **Projects Page**: ✅ Template ready for your actual projects
+- **Sample Project**: ✅ Detailed "Customer Churn Prediction" example
+- **About/Contact Pages**: ❌ Not yet created
+
+## NEXT STEPS TO COMPLETE
+1. **Update Personal Info**: Replace placeholder social media usernames in `_config.yml`
+2. **Add Real Projects**: Replace sample project with your actual data science work
+3. **Create Missing Pages**: Add About and Contact pages
+4. **Add Resume**: Upload and link your resume PDF
+5. **Deploy**: Push to GitHub Pages for live site
+
+## PROJECT ADVANTAGES
+- **Professional Quality**: Well-structured, clean design
+- **GitHub Pages Ready**: No hosting costs, easy deployment  
+- **SEO Optimized**: Good for discoverability
+- **Extensible**: Easy to add new projects and content
+- **Modern Stack**: Current Jekyll best practices
+
+## TECHNICAL NOTES
+- Uses GitHub Pages compatible gems only
+- Configured for user site (timur-hassan.github.io format)
+- Markdown-based content (easy to edit)
+- SCSS for styling flexibility
+- Collections system for scalable project management
+
+## FILES TO CUSTOMIZE FOR YOUR USE
+1. `_config.yml` - Update social media usernames and personal details
+2. `_projects/` - Add your actual data science projects (use sample-project.md as template)
+3. `index.md` - Update bio and personal information
+4. Create `about.md` and `contact.md` pages
+5. Add your resume to `assets/resume.pdf`
+
+## DEPLOYMENT READY
+The site is configured and ready for GitHub Pages deployment. Simply push to a repository named `timur-hassan.github.io` (or configure Pages in repository settings).
+
+This is an excellent foundation for a professional data science portfolio. The structure is solid and you're very close to having a complete, deployable site. 

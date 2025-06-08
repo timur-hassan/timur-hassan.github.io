@@ -3,9 +3,10 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Data Science Portfolio
-
-Hello! I'm a data scientist passionate about extracting insights from complex datasets and building machine learning solutions that drive business value.
+<div class="hero-section">
+<h1>Welcome to My Data Science Portfolio</h1>
+<p>Hello! I'm a data scientist passionate about extracting insights from complex datasets and building machine learning solutions that drive business value.</p>
+</div>
 
 ## What I Do
 
@@ -35,8 +36,8 @@ Hello! I'm a data scientist passionate about extracting insights from complex da
 
 I'm always interested in discussing new opportunities and data science challenges.
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [linkedin.com/in/yourlinkedin](https://linkedin.com/in/yourlinkedin)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: [timur.hassan@gmail.com](mailto:timur.hassan@gmail.com)
+- **LinkedIn**: [linkedin.com/in/timur-hassan](https://linkedin.com/in/timur-hassan)
+- **GitHub**: [github.com/timur-hassan](https://github.com/timur-hassan)
 
 [Download Resume (PDF)](/assets/resume.pdf) 
