@@ -91,8 +91,11 @@ model.fit(X_train, y_train)
 
 ## Visualizations
 
-![Churn by Contract Type]({{ site.url }}/assets/images/churn-by-contract.png)
-![Feature Importance]({{ site.url }}/assets/images/feature-importance.png)
+*Note: Visualizations and charts would be displayed here in a real project. This includes:*
+- Churn rate analysis by contract type
+- Feature importance rankings from the XGBoost model
+- ROC curves and confusion matrices
+- Customer segmentation plots
 
 ## Future Improvements
 
