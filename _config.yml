@@ -1,0 +1,44 @@
+# Site settings
+title: "Timur Hassan - AI Generated Data Science Portfolio"
+email: timur.hassan@gmail.com
+description: >-
+  Data Scientist specializing in machine learning, analytics, and insights.
+  Passionate about turning data into actionable business solutions.
+
+baseurl: "" # Empty for user site (timur-hassan.github.io)
+url: "https://timur-hassan.github.io" # Your main GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social media/contact
+github_username: yourusername
+linkedin_username: yourlinkedin
+twitter_username: yourtwitter
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 

@@ -1,0 +1,3 @@
+My goal is to have a datascience website to help me find freelance work.I want a data science portfolio website.
+
+I want you to recommend a free kanban platform with which you can interact so that you and I are on the same page.
